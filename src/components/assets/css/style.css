@@ -1048,3 +1048,34 @@ label {
         width: 57%;
     }
 }
+
+
+
+
+/* contact page */
+.min {
+    height: 200px;
+    text-align: center;
+    background-color: #999999;
+    color: #fff;
+    padding: 60px 0px;
+    
+
+}
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 70px;
+}
+
+.locinfo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.locinfo i {
+    font-size: 30px;
+    margin-right: 5px;
+}
