@@ -10,8 +10,7 @@ import Blank from '../components/Blank';
 const Home = () => {
   return (
     <div className='homepage'>
-      This is Home
-      <StepSelector />
+      <div id="step_select" className='scroll-top'><StepSelector /></div>
       <Banner />
       <PerfectPlan />
       <Services />

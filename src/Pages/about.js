@@ -1,6 +1,14 @@
 import React from "react";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
+import helen from '../components/assets/images/helen_smith.jpg';
+import john from '../components/assets/images/john_jones.png';
+import slider1 from '../components/assets/images/image_3.jpg';
+import slider2 from '../components/assets/images/image_2.jpg';
+import slider3 from '../components/assets/images/image_1.jpg';
+import exp from '../components/assets/images/exp.png';
+import background from '../components/assets/images/background.png';
+import professional from '../components/assets/images/prof.png';
 
 const about = () => {
   const responsive = {
@@ -71,15 +79,19 @@ const about = () => {
         </div>
         <div className="row">
           <div className="col-md-3">
+          <div><img src={exp} alt="experience"/></div>
             <h4>Experienced</h4>
           </div>
           <div className="col-md-3">
+          <div><img src={professional} alt="professional"/></div>
             <h4>Professional</h4>
           </div>
           <div className="col-md-3">
+          <div><img src={background} alt="background"/></div>
             <h4>Background & reference checked</h4>
           </div>
           <div className="col-md-3">
+          <div><img src={exp} alt="interview in person"/></div>
             <h4>Interviewed in-person</h4>
           </div>
         </div>
@@ -88,14 +100,47 @@ const about = () => {
         <div className="row">
           <h1>Trusted by all our customers.</h1>
         </div>
-        <div>
+        <div className="about-slider">
           <Carousel responsive={responsive} infinite={true}
               itemClass="carouselItem"
               autoPlay={true} showDots={true} arrows={false}>
-            <div>Item 1</div>
-            <div>Item 2</div>
-            <div>Item 3</div>
-            <div>Item 4</div>
+            <div className="slider-1">
+              <div><img src={helen} alt="helen"></img></div>
+              <div>
+                <h3>HELEN SMITH</h3>
+                <h4>CEO</h4>
+                <p>Pellentesque habitant morbi tristique senectus sed netus eft malesuada fames ac turpis egestas Aenean non tell Donec pede quam placerat ristique faucibus poserw ulet elobortis justo. Etiam nunc sit. Fusce non pede non erat varius lacinia nunc et ligula.</p>
+              </div>
+            </div>
+            <div className="slider-1">
+              <div><img src={john} alt="john"></img></div>
+              <div>
+                <h3>John Jones</h3>
+                <h4>Manager</h4>
+                <p>Pellentesque habitant morbi tristique senectus sed netus eft malesuada fames ac turpis egestas Aenean non tell Donec pede quam placerat ristique faucibus poserw ulet elobortis justo. Etiam nunc sit. Fusce non pede non erat varius lacinia nunc et ligula.</p>
+              </div>
+            </div>
+            <div className="slider-1">
+              <div><img src={slider1} alt="slider1"></img></div>
+              <div>
+                <h3>Would recommend to anyone</h3>
+                <p>I love your product! I would recommend this to anyone. What a great find!</p>
+              </div>
+            </div>
+            <div className="slider-1">
+              <div><img src={slider2} alt="slider2"></img></div>
+              <div>
+                <h3>Excellent Customer Support</h3>
+                <p>I receieved excellent customer support, and quickly. Thank you so much!</p>
+              </div>
+            </div>
+            <div className="slider-1">
+              <div><img src={slider3} alt="slider3"></img></div>
+              <div>
+                <h3>This is a great product.</h3>
+                <p>I needed a simple, easy-to-use way to add testimonials to my website and display them.  Easy Testimonials Pro did all of that and more!</p>
+              </div>
+            </div>
           </Carousel>
         </div>
       </section>

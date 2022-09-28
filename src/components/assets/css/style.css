@@ -1079,3 +1079,8 @@ label {
     font-size: 30px;
     margin-right: 5px;
 }
+
+
+.scroll-top {
+    scroll-margin-top: 7rem;
+  }

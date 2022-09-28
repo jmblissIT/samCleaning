@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import StepSelector from '../components/StepSelector';
 
 const Book = () => {
     return(
-        <div><h1>This is book Us Page</h1></div>
+        <div>
+            <div>
+                <h1>Complete your booking</h1>
+                <p>Great! Just a few more details and we can complete your booking!</p>
+            </div>
+        <StepSelector />
+        </div>
     )
 }
 export default Book;

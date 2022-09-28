@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { HashLink } from "react-router-hash-link";
 const PerfectPlan = () => {
   return (
     <div className='perfect-plan'>
@@ -12,7 +12,7 @@ const PerfectPlan = () => {
         </h5>
         </div>
         <div className='book-now perfectbtn'>
-          <button className='book-now-btn'>Book Now</button>
+        <HashLink smooth to={"/#step_select"} className="nav-link"><button className='book-now-btn'>Book Now</button></HashLink>
         </div>
       </div>
     </div>

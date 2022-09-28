@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { HashLink } from "react-router-hash-link";
 import c1 from './assets/images/c1.jpg';
 import c2 from './assets/images/c2.jpg';
 import c3 from './assets/images/c3.jpg';
@@ -64,13 +65,12 @@ const Banner = () => {
                 lead-in to additional content. This card has even longer content
                 than the first to show that equal height action.
               </p>
-             
             </div>
           </div>
         </div>
       </div>
       <div className='book-now bannerbtn'>
-        <button className='book-now-btn'>Book Now</button>
+        <HashLink smooth to={"/#step_select"} className="nav-link"><button className='book-now-btn'>Book Now</button></HashLink>
       </div>
     </div>
     </div>
