@@ -1054,20 +1054,24 @@ label {
 
 /* contact page */
 .min {
-    height: 200px;
+    height: 215px;
     text-align: center;
     background-color: #999999;
     color: #fff;
-    padding: 60px 0px;
-    
-
+    padding-top: 65px;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+.topMargin{
+    margin: 95px 0px;
 }
 
 .box{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 50px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 40px;
     border-radius: 20px;
-    margin: 70px;
+    width: 40%;
+    margin: 50px 0px 0px 0px;
 }
 
 .locinfo{
@@ -1076,11 +1080,156 @@ label {
 }
 
 .locinfo i {
-    font-size: 30px;
-    margin-right: 5px;
+    font-size: 35px;
+    margin-right: 15px;
+    color: #0A345E;
+}
+
+
+.scroll-top {
+    scroll-margin-top: 7rem;
+}
+.lineH{
+    text-align: initial;
+    font-weight: bold;
+}
+
+.lineP{
+    text-align: initial;
+}
+.formbox{
+    width: 40%; 
+    margin: 50px 0px 0px 0px;   
+}
+
+.centerrow{
+    justify-content: center;
+}
+
+.yourname{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 0px 8px 20px
+}
+
+.rightbox{
+    width: 100%;
+    height: 60px;
+    margin-left: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 10px;
+}
+
+.righttextarea{
+    width: 100%;
+    height: 200px;
+    margin-left: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 10px; 
+    
+}
+
+.submitbutton{
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    padding: 0px 0px 0px 20px;
+    height: 62px;
+    margin-left: 30px;
+    background-color: #0E9C41;
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: 500;
 }
 
 
 .scroll-top {
     scroll-margin-top: 7rem;
   }
+
+  /* Faq page */
+  .faq-section {
+    background-color: #999999;
+  }
+.faq-title h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* regular cleaning page */
+.regular-section-1 {
+    background-image: url('../images/service_6.png');
+}
+
+/* seep cleaning page */
+.deep-section-1 {
+    background-image: url('../images/service_5.jpg');
+}
+/* post construction page */
+.post-section-1 {
+    background-image: url('../images/service_2.jpg');
+}
+/* move in/out page */
+.move-section-1 {
+    background-image: url('../images/service_4.jpg');   
+}
+/* office cleaning page */
+.office-section-1 {
+    background-image: url('../images/service_1.jpg');   
+}
+/* construction protection page */
+.construct-section-1 {
+    background-image: url('../images/service_3.jpg');   
+}
+
+
+/* about us */
+
+.aboutbox{
+    margin: 30px 0px 20px 0px;
+    text-align: initial;
+}
+.mainheading{
+    text-transform: uppercase;
+    color: #033F69;
+    font-weight: bold;
+    margin: 25px 0px 20px 0px;
+}
+.paragraph {
+    color: #666 !important;
+    line-height: 1.6;
+    font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+}
+.midbox{
+    background-color: #0F436E;
+    margin: 50px 0px 0px 0px;
+}
+.whitetext{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 80px 0px 30px 0px;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+}
+.textcolor{
+    color: #fff;
+    font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+    margin: 10px 0px 30px 0px;
+    font-size: smaller;
+}
+
+.white{
+    color: #ffffff!important;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.thirdpart{
+    margin: 50px 0px 0px 0px;
+    font-weight: bold;
+}

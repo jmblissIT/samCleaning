@@ -34,14 +34,15 @@ const about = () => {
     <div>
       <section className="about-section">
         <div className="about-title">
-          <h1>About Us</h1>
+          <h1 className= "min">About Us</h1>
         </div>
       </section>
       <section>
+      <div className="container">  
         <div className="row">
-          <div className="col-md-6">
-            <h2>The MyClean Story</h2>
-            <p>
+          <div className="col-md-6 aboutbox">
+            <h4 className="mainheading">The MyClean Story</h4>
+            <p className="paragraph">
               Lorem Ipsum has been the industry’s standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
               scrambled it to make a type specimen book. It has survived not
@@ -52,9 +53,9 @@ const about = () => {
               like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
           </div>
-          <div className="col-md-6">
-            <h2>Our Mission</h2>
-            <p>
+          <div className="col-md-6 aboutbox">
+            <h4 className="mainheading">Our Mission</h4>
+            <p className="paragraph">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don’t look even
@@ -62,14 +63,25 @@ const about = () => {
               Ipsum, you need to be sure there isn’t anything embarrassing
               hidden in the middle of text.
             </p>
+            <p className="paragraph">Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer
+               took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+               but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <p className="paragraph">
+            It was popularised in the 1960s with the release of Letraset sheets containing
+             Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+
           </div>
         </div>
+      </div>  
       </section>
-      <section>
+      <section className="midbox">
+        <div className="container">
         <div className="row">
           <div>
-            <h1>A trusted cleaning service in new york.</h1>
-            <p>
+            <h1 className="whitetext">A trusted cleaning service in new york.</h1>
+            <p className="textcolor">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don’t look even
@@ -80,25 +92,26 @@ const about = () => {
         <div className="row">
           <div className="col-md-3">
           <div><img src={exp} alt="experience"/></div>
-            <h4>Experienced</h4>
+            <h5 className="white">Experienced</h5>
           </div>
           <div className="col-md-3">
           <div><img src={professional} alt="professional"/></div>
-            <h4>Professional</h4>
+            <h5 className="white">Professional</h5>
           </div>
           <div className="col-md-3">
           <div><img src={background} alt="background"/></div>
-            <h4>Background & reference checked</h4>
+            <h5 className="white">Background & reference checked</h5>
           </div>
           <div className="col-md-3">
           <div><img src={exp} alt="interview in person"/></div>
-            <h4>Interviewed in-person</h4>
+            <h5 className="white">Interviewed in-<br />person</h5>
           </div>
         </div>
+      </div>
       </section>
       <section>
         <div className="row">
-          <h1>Trusted by all our customers.</h1>
+          <h1 className="thirdpart">Trusted by all our customers.</h1>
         </div>
         <div className="about-slider">
           <Carousel responsive={responsive} infinite={true}
@@ -146,6 +159,5 @@ const about = () => {
       </section>
     </div>
   );
-};
-
+}
 export default about;

@@ -10,7 +10,7 @@ const RegularCleaning = () => {
   return (
     <>
     <div>
-        <section>
+        <section className='regular-section-1'>
             <h1>regular cleaning</h1>
         </section>
         <section>

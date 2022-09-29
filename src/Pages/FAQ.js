@@ -6,7 +6,7 @@ const FAQ = () => {
         <>
         <section className="faq-section">
         <div className="faq-title">
-          <h1>FAQ</h1>
+          <h1 className= "min">FAQ</h1>
         </div>
       </section>
       <section>
